@@ -35,6 +35,17 @@ nav li{
   font-size: 1.5rem;
 }
 
+.projects-nav{
+  text-decoration-style: none;
+  text-decoration: none;
+}
+
+/* BODY */
+
+body{
+  font-family: 'Poiret One', cursive;
+}
+
 /* INTRO */
 
 #intro{
@@ -50,67 +61,116 @@ justify-content: center;
   text-align: center;
   font-size: 5rem;
   max-width: 80%;
+  font-family: 'Poiret One', cursive;
 }
 
 /* PROJECTS */
 
 #projects{
 max-width: 80%;
-height: 80rem;
+height: 180rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-around;
+justify-content: space-between;
 background-color: #FFFFFF;
 margin: 5rem auto 5rem auto;
 }
 
-.about-title{
-  position: absolute;
+.projects-title{
   text-align: left;
-  font-size: 4rem;
-  transform: translate(-22rem, -25rem);
+  font-size: 6rem;
+  margin: 2rem auto 0rem auto;
 }
 
-.about-lines-and-cards{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+/* ROAD 2 DANISH PROJECT */
 
-.lines{
-  position: absolute;
-  transform: translate(-20rem, 2rem);
-}
-
-.dot{
-  width:14px;
-  height:14px;
-  background: #D1D6E6;
-  border-radius:7px;
-}
-
-.line{
-  height:225px;
-  width:2px;
-  background: #D1D6E6;
-  margin-left:5.3px;
-}
-
-.fa-paper-plane{
-  position: absolute;
-  transform: translate(6rem, -3rem) rotate(75deg);
-}
-
-.about-3-cards{
+#road-to-danish-project{
+  width: 80%;
+  height: 30rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
-  height: 25rem;
-  margin-bottom: 7rem;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto 3rem auto;
+  background-color: red;
+  border-radius: 30px;
 }
+
+.road-to-danish-title{
+  font-size: 4rem;
+  color: white;
+}
+
+
+/* WORLD CARDS PROJECT */
+
+#world-cards-project{
+  width: 80%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0rem auto 3rem auto;
+  background-color: orange;
+  border-radius: 30px;
+}
+
+.world-cards-title{
+  font-size: 4rem;
+  color: white;
+}
+
+/* REFLAG PROJECT */
+
+#reflag-project{
+  width: 80%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto 3rem auto;
+  background-color: blue;
+  border-radius: 30px;
+}
+
+.reflag-title{
+  font-size: 4rem;
+  color: white;
+}
+
+/* ZOO PROJECT */
+
+#zoo-project{
+  width: 80%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto 3rem auto;
+  background-color: green;
+  border-radius: 30px;
+}
+
+.zoo-title{
+  font-size: 4rem;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
 
 #footer{
   width: 100%;
@@ -122,10 +182,16 @@ margin: 5rem auto 5rem auto;
   text-align: center;
 }
 
+.name-footer{
+  font-size: 3rem;
+  font-family: 'Poiret One', cursive;
+}
+
 .footer-icons{
   width: 15rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  transform: scale(1.5);
 }
