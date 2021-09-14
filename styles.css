@@ -139,26 +139,20 @@ cursor: pointer;
 }
 
 
-.world-cards-title:hover{
-  animation-name: title;
-  animation-duration: 3s;
-}
-
 @keyframes soccer{
-  from {color: black;}
-  to {color: black;}
-  from {transform: scale(5) rotate(0deg) translate(-3rem, 3rem);}
-  to {transform: scale(5) rotate(380deg) translate(3rem, 5rem);}
+  0% {transform: scale(4) rotate(0deg) translate(-6rem, 6rem);}
+  100% {transform: scale(4) rotate(360deg) translate(8rem, 4rem);}
 }
 
 
 
 .fa-futbol{
-
+  color: black;
   animation-name: soccer;
-  animation-duration: 5s;
+  animation-duration: 2s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
+  animation-timing-function: linear;
 
 }
 
