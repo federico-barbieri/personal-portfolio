@@ -7,6 +7,11 @@ html{
   font-size: 20px;
 }
 
+a:visited{
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
 .container{
   width: 100%;
 background-color: #FFE6E6;
@@ -98,7 +103,7 @@ margin: 5rem auto 5rem auto;
   align-items: center;
   justify-content: center;
   margin: 0 auto 3rem auto;
-  background-color: red;
+  background-color: #FF6B6B;
   border-radius: 30px;
   filter: drop-shadow(2px 2px 5px);
   text-align: center;
@@ -110,7 +115,7 @@ cursor: pointer;
 }
 
 .road-to-danish-title{
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
 }
 
@@ -138,7 +143,7 @@ cursor: pointer;
 }
 
 .world-cards-title{
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
 }
 
@@ -178,13 +183,25 @@ cursor: pointer;
 
 #reflag-project:hover{
 filter: drop-shadow(5px 5px 15px);
-cursor: pointer;
 }
 
 .reflag-title{
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
 }
+
+.reflag-btn{
+  background-color: transparent;
+  font-size: 2rem;
+  color: white;
+  border-radius: 1.5rem;
+  padding: 0.8rem 3rem 0.8rem 3rem;
+  transform: translateY(6rem);
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+
 
 /* ZOO PROJECT */
 
@@ -209,7 +226,7 @@ cursor: pointer;
 }
 
 .zoo-title{
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
 }
 
