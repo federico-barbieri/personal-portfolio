@@ -12,6 +12,10 @@ a:visited{
   text-decoration-style: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container{
   width: 100%;
 background-color: #FFE6E6;
@@ -78,11 +82,11 @@ justify-content: center;
 
 #projects{
 max-width: 80%;
-height: 180rem;
+height: 250rem;
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: space-between;
+justify-content: space-around;
 background-color: #FDF6F0;
 margin: 5rem auto 5rem auto;
 }
@@ -111,12 +115,30 @@ margin: 5rem auto 5rem auto;
 
 #road-to-danish-project:hover{
 filter: drop-shadow(5px 5px 15px);
-cursor: pointer;
 }
 
 .road-to-danish-title{
   font-size: 5rem;
   color: white;
+}
+
+
+.road2danish-btn{
+  background-color: transparent;
+  font-size: 2rem;
+  color: white;
+  border-radius: 5rem;
+  padding: 0.8rem 3rem 0.8rem 3rem;
+  transform: translateY(6rem);
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
+}
+
+.road2danish-btn:hover{
+  background-color: #CF0000;
+  filter: drop-shadow(2px 2px 7px);
+  border-radius: 0rem;
 }
 
 
@@ -139,7 +161,6 @@ cursor: pointer;
 
 #world-cards-project:hover{
 filter: drop-shadow(5px 5px 15px);
-cursor: pointer;
 }
 
 .world-cards-title{
@@ -147,6 +168,23 @@ cursor: pointer;
   color: white;
 }
 
+.worldcards-btn{
+  background-color: transparent;
+  font-size: 2rem;
+  color: white;
+  border-radius: 5rem;
+  padding: 0.8rem 3rem 0.8rem 3rem;
+  transform: translateY(6rem);
+  border: 1px solid white;
+  cursor: pointer;
+  transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
+}
+
+.worldcards-btn:hover{
+  background-color: #D49D42;
+  filter: drop-shadow(2px 2px 7px);
+  border-radius: 0rem;
+}
 
 @keyframes soccer{
   0% {transform: scale(4) rotate(0deg) translate(-6rem, 6rem);}
@@ -175,7 +213,7 @@ cursor: pointer;
   align-items: center;
   justify-content: center;
   margin: 0 auto 3rem auto;
-  background-color: blue;
+  background-color: #628395;
   border-radius: 30px;
   filter: drop-shadow(2px 2px 5px);
   text-align: center;
@@ -194,11 +232,18 @@ filter: drop-shadow(5px 5px 15px);
   background-color: transparent;
   font-size: 2rem;
   color: white;
-  border-radius: 1.5rem;
+  border-radius: 5rem;
   padding: 0.8rem 3rem 0.8rem 3rem;
   transform: translateY(6rem);
   border: 1px solid white;
   cursor: pointer;
+  transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
+}
+
+.reflag-btn:hover{
+  background-color: #334257;
+  filter: drop-shadow(2px 2px 7px);
+  border-radius: 0rem;
 }
 
 
@@ -213,7 +258,7 @@ filter: drop-shadow(5px 5px 15px);
   align-items: center;
   justify-content: center;
   margin: 0 auto 3rem auto;
-  background-color: green;
+  background-color: #A799B7;
   border-radius: 30px;
   overflow: hidden;
   filter: drop-shadow(2px 2px 5px);
@@ -222,12 +267,31 @@ filter: drop-shadow(5px 5px 15px);
 
 #zoo-project:hover{
 filter: drop-shadow(5px 5px 15px);
-cursor: pointer;
 }
 
 .zoo-title{
   font-size: 5rem;
   color: white;
+  z-index: 10;
+}
+
+.zoo-btn{
+  background-color: transparent;
+  font-size: 2rem;
+  color: white;
+  border-radius: 5rem;
+  padding: 0.8rem 3rem 0.8rem 3rem;
+  transform: translateY(6rem);
+  border: 1px solid white;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
+}
+
+.zoo-btn:hover{
+  filter: drop-shadow(2px 2px 7px);
+  border-radius: 0rem;
+  background-color: #7952B3;
 }
 
 .right-paw{
@@ -289,11 +353,50 @@ cursor: pointer;
   100% {transform: translate(0rem, -20rem);}
 }
 
+/* THE QUOTES LIBRARY */
 
+#quote-library-project{
+width: 80%;
+height: 30rem;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 0 auto 3rem auto;
+background-color: #B5EAEA;
+border-radius: 30px;
+overflow: hidden;
+filter: drop-shadow(2px 2px 5px);
+text-align: center;
+}
 
+#quote-library-project:hover{
+filter: drop-shadow(5px 5px 15px);
+}
 
+.quote-library-title{
+  font-size: 5rem;
+  color: white;
+}
 
+.quote-library-btn{
+  background-color: transparent;
+  font-size: 2rem;
+  color: white;
+  border-radius: 5rem;
+  padding: 0.8rem 3rem 0.8rem 3rem;
+  transform: translateY(6rem);
+  border: 1px solid white;
+  cursor: pointer;
+  z-index: 10;
+  transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
+}
 
+.quote-library-btn:hover{
+  filter: drop-shadow(2px 2px 7px);
+  border-radius: 0rem;
+  background-color: #78C4D4;
+}
 
 
 
