@@ -107,37 +107,44 @@ margin: 5rem auto 5rem auto;
   align-items: center;
   justify-content: center;
   margin: 0 auto 3rem auto;
-  background-color: #FF6B6B;
+  background-image: url('img/reflag-background.jpg');
+  background-position: bottom;
+  background-size: contain;
   border-radius: 30px;
   filter: drop-shadow(2px 2px 5px);
   text-align: center;
 }
 
 #road-to-danish-project:hover{
-filter: drop-shadow(5px 5px 15px);
+filter: drop-shadow(5px 5px 15px white);
 }
 
 .road-to-danish-title{
   font-size: 5rem;
   color: white;
+  text-shadow: 5px 2px #FF7171;
 }
 
 
+
+
+
 .road2danish-btn{
-  background-color: transparent;
+  background-color: #FF7171;
   font-size: 2rem;
   color: white;
   border-radius: 5rem;
   padding: 0.8rem 3rem 0.8rem 3rem;
   transform: translateY(6rem);
-  border: 1px solid white;
+  border: 1px solid #FF7171;
   cursor: pointer;
   transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
+  text-shadow: 5px 2px #FF7171;
 }
 
 .road2danish-btn:hover{
-  background-color: #CF0000;
-  filter: drop-shadow(2px 2px 7px);
+  background-color: #FF7171;
+  filter: drop-shadow(2px 2px 7px #FF7171);
   border-radius: 0rem;
 }
 
@@ -152,11 +159,14 @@ filter: drop-shadow(5px 5px 15px);
   align-items: center;
   justify-content: center;
   margin: 0rem auto 3rem auto;
-  background-color: orange;
+  background-image: url("img/worldcards-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
   border-radius: 30px;
   overflow: hidden;
   filter: drop-shadow(2px 2px 5px);
   text-align: center;
+
 }
 
 #world-cards-project:hover{
@@ -187,14 +197,14 @@ filter: drop-shadow(5px 5px 15px);
 }
 
 @keyframes soccer{
-  0% {transform: scale(4) rotate(0deg) translate(-6rem, 6rem);}
-  100% {transform: scale(4) rotate(360deg) translate(8rem, 4rem);}
+  0% {transform: scale(3) rotate(0deg) translate(-6rem, 6rem);}
+  100% {transform: scale(3) rotate(360deg) translate(8rem, 4rem);}
 }
 
 
 
 .fa-futbol{
-  color: black;
+  color: #DDDDDD;
   animation-name: soccer;
   animation-duration: 2s;
   animation-direction: alternate;
@@ -213,7 +223,7 @@ filter: drop-shadow(5px 5px 15px);
   align-items: center;
   justify-content: center;
   margin: 0 auto 3rem auto;
-  background-color: #628395;
+  background-color: red;
   border-radius: 30px;
   filter: drop-shadow(2px 2px 5px);
   text-align: center;
@@ -245,6 +255,7 @@ filter: drop-shadow(5px 5px 15px);
   filter: drop-shadow(2px 2px 7px);
   border-radius: 0rem;
 }
+
 
 
 
@@ -398,6 +409,19 @@ filter: drop-shadow(5px 5px 15px);
   background-color: #78C4D4;
 }
 
+
+/* ABOUT */
+
+#about{
+  width: 80%;
+  height: 60rem;
+}
+
+.about-title{
+  text-align: left;
+  font-size: 6rem;
+  margin: 2rem auto 0rem 5rem;
+}
 
 
 
