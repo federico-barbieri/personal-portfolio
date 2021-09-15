@@ -1,8 +1,35 @@
+// Road 2 Danish
 
+const road = document.querySelector('.road');
 
-const title = document.querySelector('.intro-main-title');
+const danish = document.querySelector('.danish');
 
-title.addEventListener('scroll', ()=>{
-  title.style.color = 'green';
-  console.log('sup');
+const two = document.querySelector('.two');
+
+const danishProject = document.getElementById('road-to-danish-project');
+
+danishProject.addEventListener('mouseenter', () =>{
+  road.innerHTML = 'Vej';
+  danish.innerHTML = 'Dansk';
+  two.innerHTML = 'til';
+})
+
+danishProject.addEventListener('mouseleave', () =>{
+  road.innerHTML = 'Road';
+  danish.innerHTML = 'Danish';
+  two.innerHTML = '2';
+})
+
+// The Quote Library
+
+const quoteTitle = document.querySelector('.quote-library-title');
+
+const quoteProject = document.getElementById('quote-library-project');
+
+quoteProject.addEventListener('mouseenter', () =>{
+  quoteTitle.innerHTML = '"The Quote Library"';
+})
+
+quoteProject.addEventListener('mouseleave', () =>{
+  quoteTitle.innerHTML = 'The Quote Library';
 })
