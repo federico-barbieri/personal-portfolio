@@ -12,6 +12,11 @@ a:visited{
   text-decoration-style: none;
 }
 
+a{
+  text-decoration: none;
+  text-decoration-style: none;
+}
+
 button {
   cursor: pointer;
 }
@@ -377,7 +382,62 @@ filter: drop-shadow(5px 5px 15px);
   background-color: #035397;
 }
 
+@keyframes swim{
+  0% {transform: translate(-25rem, 5rem);}
 
+  100% {transform: translate(30rem, 9rem);}
+}
+
+@keyframes swim2{
+  0% {transform: translate(1rem, 3rem) scale(2);}
+
+  60% {transform: translate(1rem, 4rem) scale(2);}
+
+  100% {transform: translate(1rem, 3rem) scale(2);}
+
+}
+
+@keyframes swim3{
+  0% {transform: translate(30rem, -5rem) rotate(-180deg);}
+  100% {transform: translate(-30rem, 1rem) rotate(-180deg);}
+}
+
+@keyframes swim4{
+  0% {transform: translate(-20rem, 20rem) rotate(-90deg);}
+  100% {transform: translate(-20rem, -20rem) rotate(-90deg);}
+}
+
+
+
+.fa-fish{
+  color: yellow;
+  position: absolute;
+  animation: swim 3s ease-in infinite;
+  animation-fill-mode: forwards;
+}
+
+.fish2{
+  color: orange;
+  position: absolute;
+  animation: swim2 3s ease-in infinite;
+  animation-fill-mode: both;
+}
+
+.fish3{
+  color: blue;
+  position: absolute;
+  animation: swim3 3s ease-in infinite;
+  animation-fill-mode: forwards;
+}
+
+.fish4{
+  color: green;
+  position: absolute;
+  animation: swim4 3s ease-in infinite;
+  animation-fill-mode: forwards;
+}
+
+/*
 .right-paw{
   animation-name: paws;
   animation-duration: 6s;
@@ -392,7 +452,7 @@ filter: drop-shadow(5px 5px 15px);
   animation-delay: 0.2s;
 }
 
-/*
+
 @keyframes paws{
   0% {opacity: 0;}
   0% {transform: translate(0rem, 20rem);}
@@ -492,13 +552,36 @@ filter: drop-shadow(5px 5px 15px);
 
 #about{
   width: 80%;
-  height: 60rem;
+  height: 150rem;
+  margin: 1rem auto 1rem auto;
 }
 
 .about-title{
   text-align: left;
   font-size: 6rem;
-  margin: 2rem auto 0rem 5rem;
+  margin: 2rem auto 0rem auto;
+}
+
+.about-p{
+  margin: 2rem auto 1rem auto;
+  font-size: 3.5rem;
+  text-align: left;
+}
+
+.diplomas{
+  background-color: white;
+  width: 80vw;
+  height: 110rem;
+  margin: 5rem auto 1rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.diploma{
+  width: 60%;
+  height: auto;
 }
 
 
@@ -515,11 +598,14 @@ filter: drop-shadow(5px 5px 15px);
   align-items: center;
   justify-content: space-between;
   text-align: center;
+  background-color: #FFDEDE;
 }
 
 .name-footer{
   font-size: 3rem;
   font-family: 'Poiret One', cursive;
+  margin: 2rem auto 1rem auto;
+  text-shadow: 3px 2px #FDEFEF;
 }
 
 .footer-icons{
