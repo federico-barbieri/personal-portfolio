@@ -107,7 +107,7 @@ margin: 5rem auto 5rem auto;
   align-items: center;
   justify-content: center;
   margin: 0 auto 3rem auto;
-  background-image: url('img/reflag-background.jpg');
+  background-image: url('img/road2danish-background.jpg');
   background-position: bottom;
   background-size: contain;
   border-radius: 30px;
@@ -139,13 +139,14 @@ filter: drop-shadow(5px 5px 15px white);
   border: 1px solid #FF7171;
   cursor: pointer;
   transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
-  text-shadow: 5px 2px #FF7171;
+
 }
 
 .road2danish-btn:hover{
-  background-color: #FF7171;
+  background-color: #630A10;
   filter: drop-shadow(2px 2px 7px #FF7171);
   border-radius: 0rem;
+  text-shadow: none;
 }
 
 
@@ -176,10 +177,11 @@ filter: drop-shadow(5px 5px 15px);
 .world-cards-title{
   font-size: 5rem;
   color: white;
+  text-shadow: 5px 2px #0F1123;
 }
 
 .worldcards-btn{
-  background-color: transparent;
+  background-color: #0F1123;
   font-size: 2rem;
   color: white;
   border-radius: 5rem;
@@ -191,7 +193,7 @@ filter: drop-shadow(5px 5px 15px);
 }
 
 .worldcards-btn:hover{
-  background-color: #D49D42;
+  background-color: #121013;
   filter: drop-shadow(2px 2px 7px);
   border-radius: 0rem;
 }
@@ -223,7 +225,9 @@ filter: drop-shadow(5px 5px 15px);
   align-items: center;
   justify-content: center;
   margin: 0 auto 3rem auto;
-  background-color: red;
+  background-image: url('img/reflag-background.jpg');
+  background-position: center;
+  background-size: contain;
   border-radius: 30px;
   filter: drop-shadow(2px 2px 5px);
   text-align: center;
@@ -236,10 +240,11 @@ filter: drop-shadow(5px 5px 15px);
 .reflag-title{
   font-size: 5rem;
   color: white;
+  text-shadow: 5px 2px #346751;
 }
 
 .reflag-btn{
-  background-color: transparent;
+  background-color: #346751;
   font-size: 2rem;
   color: white;
   border-radius: 5rem;
@@ -251,7 +256,7 @@ filter: drop-shadow(5px 5px 15px);
 }
 
 .reflag-btn:hover{
-  background-color: #334257;
+  background-color: #064420;
   filter: drop-shadow(2px 2px 7px);
   border-radius: 0rem;
 }
@@ -269,7 +274,9 @@ filter: drop-shadow(5px 5px 15px);
   align-items: center;
   justify-content: center;
   margin: 0 auto 3rem auto;
-  background-color: #A799B7;
+  background-image: url('img/zoo-background2.jpg');
+  background-position: center;
+  background-size: cover;
   border-radius: 30px;
   overflow: hidden;
   filter: drop-shadow(2px 2px 5px);
@@ -284,10 +291,11 @@ filter: drop-shadow(5px 5px 15px);
   font-size: 5rem;
   color: white;
   z-index: 10;
+  text-shadow: 5px 2px #00C1D4;
 }
 
 .zoo-btn{
-  background-color: transparent;
+  background-color: #00C1D4;
   font-size: 2rem;
   color: white;
   border-radius: 5rem;
@@ -302,8 +310,9 @@ filter: drop-shadow(5px 5px 15px);
 .zoo-btn:hover{
   filter: drop-shadow(2px 2px 7px);
   border-radius: 0rem;
-  background-color: #7952B3;
+  background-color: #035397;
 }
+
 
 .right-paw{
   animation-name: paws;
@@ -319,6 +328,7 @@ filter: drop-shadow(5px 5px 15px);
   animation-delay: 0.2s;
 }
 
+/*
 @keyframes paws{
   0% {opacity: 0;}
   0% {transform: translate(0rem, 20rem);}
@@ -363,6 +373,7 @@ filter: drop-shadow(5px 5px 15px);
   100% {opacity: 0;}
   100% {transform: translate(0rem, -20rem);}
 }
+*/
 
 /* THE QUOTES LIBRARY */
 
@@ -374,7 +385,9 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 margin: 0 auto 3rem auto;
-background-color: #B5EAEA;
+background-image: url('img/quote-background.jpg');
+background-position: center;
+background-size: cover;
 border-radius: 30px;
 overflow: hidden;
 filter: drop-shadow(2px 2px 5px);
@@ -388,10 +401,11 @@ filter: drop-shadow(5px 5px 15px);
 .quote-library-title{
   font-size: 5rem;
   color: white;
+  text-shadow: 5px 2px #825959;
 }
 
 .quote-library-btn{
-  background-color: transparent;
+  background-color: #825959;
   font-size: 2rem;
   color: white;
   border-radius: 5rem;
@@ -406,7 +420,7 @@ filter: drop-shadow(5px 5px 15px);
 .quote-library-btn:hover{
   filter: drop-shadow(2px 2px 7px);
   border-radius: 0rem;
-  background-color: #78C4D4;
+  background-color: #734046;
 }
 
 
