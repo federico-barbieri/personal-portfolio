@@ -554,7 +554,7 @@ filter: drop-shadow(5px 5px 15px);
 
 #about{
   width: 80%;
-  height: 150rem;
+  height: 250rem;
   margin: 1rem auto 1rem auto;
 }
 
@@ -573,7 +573,7 @@ filter: drop-shadow(5px 5px 15px);
 .diplomas{
   background-color: white;
   width: 80vw;
-  height: 110rem;
+  height: 210rem;
   margin: 5rem auto 1rem auto;
   display: flex;
   flex-direction: column;
