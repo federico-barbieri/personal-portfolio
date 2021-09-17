@@ -250,7 +250,7 @@ filter: drop-shadow(5px 5px 15px);
   color: white;
   border-radius: 5rem;
   padding: 0.8rem 3rem 0.8rem 3rem;
-  transform: translateY(10rem);
+  transform: translate(-14.3rem, 8.5rem);
   border: 1px solid white;
   cursor: pointer;
   transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
