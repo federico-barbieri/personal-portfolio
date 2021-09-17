@@ -109,7 +109,7 @@ margin: 5rem auto 5rem auto;
 
 #road-to-danish-project{
   width: 80%;
-  height: 30rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,7 +124,7 @@ margin: 5rem auto 5rem auto;
 }
 
 #road-to-danish-project:hover{
-filter: drop-shadow(5px 5px 15px white);
+filter: drop-shadow(5px 5px 15px);
 }
 
 .road-to-danish-title{
@@ -139,10 +139,10 @@ filter: drop-shadow(5px 5px 15px white);
 
 .road2danish-btn{
   background-color: #FF7171;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   border-radius: 5rem;
-  padding: 0.8rem 3rem 0.8rem 3rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   transform: translateY(6rem);
   border: 1px solid #FF7171;
   cursor: pointer;
@@ -162,7 +162,7 @@ filter: drop-shadow(5px 5px 15px white);
 
 #world-cards-project{
   width: 80%;
-  height: 30rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,14 +190,15 @@ filter: drop-shadow(5px 5px 15px);
 
 .worldcards-btn{
   background-color: #0F1123;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   border-radius: 5rem;
-  padding: 0.8rem 3rem 0.8rem 3rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   transform: translateY(6rem);
   border: 1px solid white;
   cursor: pointer;
   transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
+  margin: 0 auto 1rem auto;
 }
 
 .worldcards-btn:hover{
@@ -227,7 +228,7 @@ filter: drop-shadow(5px 5px 15px);
 
 #reflag-project{
   width: 80%;
-  height: 30rem;
+  height: 25rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -235,7 +236,7 @@ filter: drop-shadow(5px 5px 15px);
   margin: 0 auto 3rem auto;
   background-image: url('img/reflag-background.jpg');
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   border-radius: 30px;
   filter: drop-shadow(2px 2px 5px);
   text-align: center;
@@ -247,15 +248,16 @@ filter: drop-shadow(5px 5px 15px);
 
 .reflag-btn{
   background-color: #346751;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   border-radius: 5rem;
-  padding: 0.8rem 3rem 0.8rem 3rem;
-  transform: translate(-14.3rem, 8.5rem);
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  transform: translate(-12rem, 7rem);
   border: 1px solid white;
   cursor: pointer;
   transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
   position: absolute;
+  max-width: 50%;
 }
 
 .reflag-btn:hover{
@@ -340,7 +342,7 @@ filter: drop-shadow(5px 5px 15px);
 
 #zoo-project{
   width: 80%;
-  height: 30rem;
+  height: 25rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -368,10 +370,10 @@ filter: drop-shadow(5px 5px 15px);
 
 .zoo-btn{
   background-color: #00C1D4;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   border-radius: 5rem;
-  padding: 0.8rem 3rem 0.8rem 3rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   transform: translateY(6rem);
   border: 1px solid white;
   cursor: pointer;
@@ -506,7 +508,7 @@ filter: drop-shadow(5px 5px 15px);
 
 #quote-library-project{
 width: 80%;
-height: 30rem;
+height: 25rem;
 display: flex;
 flex-direction: column;
 align-items: center;
@@ -533,10 +535,10 @@ filter: drop-shadow(5px 5px 15px);
 
 .quote-library-btn{
   background-color: #825959;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: white;
   border-radius: 5rem;
-  padding: 0.8rem 3rem 0.8rem 3rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   transform: translateY(6rem);
   border: 1px solid white;
   cursor: pointer;
@@ -555,7 +557,7 @@ filter: drop-shadow(5px 5px 15px);
 
 #about{
   width: 80%;
-  height: 250rem;
+  max-height: 250rem;
   margin: 1rem auto 1rem auto;
 }
 
