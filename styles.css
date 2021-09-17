@@ -22,7 +22,7 @@ button {
 }
 
 .container{
-  width: 100%;
+width: 100%;
 background-color: #FFE6E6;
 }
 
@@ -63,6 +63,7 @@ nav li{
 
 body{
   font-family: 'Poiret One', cursive;
+  width: 100%;
 }
 
 /* INTRO */
