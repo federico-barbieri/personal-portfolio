@@ -24,6 +24,7 @@ button {
 .container{
 width: 100%;
 background-color: #FFE6E6;
+overflow: hidden;
 }
 
 /* NAV */
