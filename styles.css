@@ -101,7 +101,9 @@ margin: 5rem auto 5rem auto;
 .projects-title{
   text-align: left;
   font-size: 6rem;
-  margin: 2rem auto 0rem auto;
+  margin: 2rem auto 0rem 2rem;
+  z-index: 10;
+  transform: translateY(15rem);
 }
 
 /* ROAD 2 DANISH PROJECT */
@@ -113,7 +115,7 @@ margin: 5rem auto 5rem auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 3rem auto;
+  margin: 10rem auto 3rem auto;
   background-image: url('img/road2danish-background.jpg');
   background-position: bottom;
   background-size: contain;
