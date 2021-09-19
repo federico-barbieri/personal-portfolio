@@ -709,6 +709,15 @@ filter: drop-shadow(5px 5px 15px);
   margin: 3rem auto 1rem auto;
 }
 
+.line-pre-stack{
+  max-width: 30rem;
+  margin: 8rem auto 1rem auto;
+  border: none;
+  background: black;
+  height: 0.2rem;
+  opacity: 0.5;
+}
+
 /* STACK */
 
 .stack{
@@ -732,6 +741,7 @@ filter: drop-shadow(5px 5px 15px);
   align-items: center;
   justify-content: space-between;
   width: 20rem;
+  margin: 0rem auto 5rem auto;
 }
 
 .program{
