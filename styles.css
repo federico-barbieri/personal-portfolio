@@ -95,7 +95,7 @@ justify-content: center;
 /* PROJECTS */
 
 #projects{
-max-width: 80%;
+max-width: 90%;
 max-height: 250rem;
 display: flex;
 flex-direction: column;
@@ -121,7 +121,7 @@ margin: 5rem auto 5rem auto;
 /* ROAD 2 DANISH PROJECT */
 
 #road-to-danish-project{
-  width: 80%;
+  width: 90%;
   height: 25rem;
   display: flex;
   flex-direction: column;
@@ -186,7 +186,7 @@ filter: drop-shadow(5px 5px 15px);
 /* WORLD CARDS PROJECT */
 
 #world-cards-project{
-  width: 80%;
+  width: 90%;
   height: 25rem;
   display: flex;
   flex-direction: column;
@@ -259,7 +259,7 @@ filter: drop-shadow(5px 5px 15px);
 /* REFLAG PROJECT */
 
 #reflag-project{
-  width: 80%;
+  width: 90%;
   height: 25rem;
   display: flex;
   flex-direction: row;
@@ -400,7 +400,7 @@ filter: drop-shadow(5px 5px 15px);
 /* ZOO PROJECT */
 
 #zoo-project{
-  width: 80%;
+  width: 90%;
   height: 25rem;
   display: flex;
   flex-direction: column;
@@ -595,7 +595,7 @@ filter: drop-shadow(5px 5px 15px);
 /* THE QUOTES LIBRARY */
 
 #quote-library-project{
-width: 80%;
+width: 90%;
 height: 25rem;
 display: flex;
 flex-direction: column;
