@@ -85,14 +85,20 @@ justify-content: center;
   font-family: 'Poiret One', cursive;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 1000px){
   .intro-main-title{
-    font-size: 4rem;
     margin-bottom: 5rem;
   }
   #intro{
     height: 45rem;
   }
+}
+
+@media only screen and (max-width: 500px){
+  .intro-main-title{
+    font-size: 4rem;
+  }
+
 }
 
 
