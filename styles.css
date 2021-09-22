@@ -835,6 +835,12 @@ filter: drop-shadow(5px 5px 15px);
   transform: scale(1.4);
 }
 
+@media only screen and (max-width: 1000px){
+.kaffe-contact{
+  flex-direction: column;
+}
+}
+
 .phone-number{
   display: flex;
   flex-direction: column;
