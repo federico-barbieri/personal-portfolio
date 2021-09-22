@@ -50,6 +50,12 @@ nav li{
   font-size: 1.5rem;
 }
 
+@media only screen and (max-width: 1000px){
+  nav li{
+    font-size: 2;
+  }
+}
+
 .projects-nav{
   text-decoration-style: none;
   text-decoration: none;
@@ -818,6 +824,30 @@ filter: drop-shadow(5px 5px 15px);
   margin: 6rem auto 5rem auto;
 }
 
+.kaffe-contact{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 30rem;
+  height: 12rem;
+  margin: 1rem auto 1rem auto;
+  transform: scale(1.4);
+}
+
+.phone-number{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.envelope-mail{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
 
 
