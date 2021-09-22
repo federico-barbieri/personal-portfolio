@@ -829,16 +829,10 @@ filter: drop-shadow(5px 5px 15px);
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 30rem;
+  width: 25rem;
   height: 12rem;
   margin: 1rem auto 1rem auto;
   transform: scale(1.4);
-}
-
-@media only screen and (max-width: 1000px){
-.kaffe-contact{
-  flex-direction: column;
-}
 }
 
 .phone-number{
@@ -846,6 +840,7 @@ filter: drop-shadow(5px 5px 15px);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 8rem;
 }
 
 .envelope-mail{
@@ -853,6 +848,31 @@ filter: drop-shadow(5px 5px 15px);
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 8rem;
+}
+
+.fa-phone{
+  margin-bottom: 1rem;
+}
+
+.fa-envelope{
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1000px){
+.kaffe-contact{
+  flex-direction: column;
+  transform: scale(1.7);
+  height: 12rem;
+  margin: 4rem auto 1rem auto;
+}
+.chat-title{
+  margin-bottom: 10rem;
+}
+#chat{
+  height: 38rem;
+}
+
 }
 
 
