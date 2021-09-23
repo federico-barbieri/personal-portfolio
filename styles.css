@@ -762,10 +762,28 @@ filter: drop-shadow(5px 5px 15px);
 
 .program{
   transform: scale(4);
+
+}
+
+.fa-html5:hover{
+  transform: scale(4.3);
+
+}
+
+.fa-css3-alt:hover{
+  transform: scale(4.3);
+}
+
+.fa-bootstrap:hover{
+  transform: scale(4.3);
 }
 
 .fa-js{
   transform: scale(4);
+}
+
+.fa-js:hover{
+  transform: scale(4.3);
 }
 
 @media only screen and (max-width: 707px){
