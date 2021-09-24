@@ -1,3 +1,17 @@
+// INTRO
+
+// NAV
+
+const burgerMenu = document.querySelector('.fa-bars');
+
+const burgerNav = document.querySelector('.burger-nav');
+
+burgerMenu.addEventListener('touchstart', () =>{
+  burgerMenu.style.display = 'none';
+  burgerNav.style.display = 'flex';
+})
+
+
 // Road 2 Danish
 
 const road = document.querySelector('.road');
@@ -5,6 +19,7 @@ const road = document.querySelector('.road');
 const danish = document.querySelector('.danish');
 
 const two = document.querySelector('.two');
+
 
 const danishProject = document.getElementById('road-to-danish-project');
 
