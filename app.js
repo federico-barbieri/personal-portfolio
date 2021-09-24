@@ -11,6 +11,11 @@ burgerMenu.addEventListener('touchstart', () =>{
   burgerNav.style.display = 'flex';
 })
 
+burgerMenu.addEventListener('click', () =>{
+  burgerMenu.style.display = 'none';
+  burgerNav.style.display = 'flex';
+})
+
 
 // Road 2 Danish
 
