@@ -66,6 +66,42 @@ nav li{
   text-decoration: none;
 }
 
+/* burger nav */
+
+.burger{
+  display: none;
+}
+
+@media only screen and (max-width: 1000px){
+  nav{
+    display: none;
+  }
+  .burger{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+  }
+  .fa-bars{
+    transform: scale(3);
+    margin: 3rem auto 0rem auto;
+    cursor: pointer;
+  }
+  .burger-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+  }
+  .burger-ul li {
+    font-size: 2rem;
+  }
+
+}
+
 /* BODY */
 
 body{
