@@ -2,9 +2,13 @@
 
 // NAV
 
+const closeWindow = document.querySelector('.fa-window-close');
+
 const burgerMenu = document.querySelector('.fa-bars');
 
 const burgerNav = document.querySelector('.burger-nav');
+
+// diplay nav in mobile
 
 burgerMenu.addEventListener('touchstart', () =>{
   burgerMenu.style.display = 'none';
@@ -16,6 +20,17 @@ burgerMenu.addEventListener('click', () =>{
   burgerNav.style.display = 'flex';
 })
 
+// close nav in mobile
+
+closeWindow.addEventListener('touchstart', () =>{
+  burgerMenu.style.display = 'flex';
+  burgerNav.style.display = 'none';
+})
+
+closeWindow.addEventListener('click', () =>{
+  burgerMenu.style.display = 'flex';
+  burgerNav.style.display = 'none';
+})
 
 // Road 2 Danish
 
