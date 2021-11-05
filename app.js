@@ -32,6 +32,22 @@ closeWindow.addEventListener('click', () =>{
   burgerNav.style.display = 'none';
 })
 
+// The Quote Library
+
+const quoteTitle = document.querySelector('.quote-library-title');
+
+const quoteProject = document.getElementById('quote-library-project');
+
+quoteProject.addEventListener('mouseenter', () =>{
+  quoteTitle.innerHTML = '"The Quote Library"';
+})
+
+quoteProject.addEventListener('mouseleave', () =>{
+  quoteTitle.innerHTML = 'The Quote Library';
+})
+
+
+
 // Road 2 Danish
 
 const road = document.querySelector('.road');
@@ -53,18 +69,4 @@ danishProject.addEventListener('mouseleave', () =>{
   road.innerHTML = 'Road';
   danish.innerHTML = 'Danish';
   two.innerHTML = '2';
-})
-
-// The Quote Library
-
-const quoteTitle = document.querySelector('.quote-library-title');
-
-const quoteProject = document.getElementById('quote-library-project');
-
-quoteProject.addEventListener('mouseenter', () =>{
-  quoteTitle.innerHTML = '"The Quote Library"';
-})
-
-quoteProject.addEventListener('mouseleave', () =>{
-  quoteTitle.innerHTML = 'The Quote Library';
 })
