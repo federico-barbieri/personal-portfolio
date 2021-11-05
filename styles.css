@@ -15,6 +15,7 @@ a:visited{
 a{
   text-decoration: none;
   text-decoration-style: none;
+  color: inherit;
 }
 
 button {
@@ -465,202 +466,6 @@ filter: drop-shadow(5px 5px 15px);
 }
 
 
-
-/* ZOO PROJECT */
-
-#zoo-project{
-  width: 90%;
-  height: 25rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin: 2rem auto 5rem auto;
-  background-image: url('img/zoo-background2.jpg');
-  background-position: center;
-  background-size: cover;
-  border-radius: 30px;
-  overflow: hidden;
-  filter: drop-shadow(2px 2px 5px);
-  text-align: center;
-}
-
-#zoo-project:hover{
-filter: drop-shadow(5px 5px 15px);
-}
-
-.zoo-title{
-  font-size: 5rem;
-  color: white;
-  z-index: 10;
-  text-shadow: 5px 2px #00C1D4;
-}
-
-.zoo-btn{
-  background-color: #00C1D4;
-  font-size: 1.5rem;
-  color: white;
-  border-radius: 5rem;
-  padding: 0.5rem 2rem 0.5rem 2rem;
-  transform: translateY(6rem);
-  border: 1px solid white;
-  cursor: pointer;
-  z-index: 10;
-  transition: background-color 0.5s ease, filter 0.5s ease, border-radius 0.5s ease;
-}
-
-.zoo-btn:hover{
-  filter: drop-shadow(2px 2px 7px);
-  border-radius: 0rem;
-  background-color: #035397;
-}
-
-@media only screen and (max-width: 1121px){
-  .zoo-btn{
-    transform: translateY(3rem);
-  }
-}
-
-@media only screen and (max-width: 829px){
-  .zoo-title{
-    font-size: 3rem;
-  }
-  .zoo-btn{
-      transform: translateY(7rem);
-  }
-}
-
-@media only screen and (max-width: 672px){
-  .zoo-btn{
-    transform: translateY(6rem);
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 497px){
-  .zoo-btn{
-    transform: translateY(4rem);
-    font-size: 1rem;
-  }
-}
-
-@keyframes swim{
-  0% {transform: translate(-25rem, 5rem);}
-
-  100% {transform: translate(30rem, 9rem);}
-}
-
-@keyframes swim2{
-  0% {transform: translate(8rem, -5rem) scale(2);}
-
-  60% {transform: translate(8rem, -4rem) scale(2);}
-
-  100% {transform: translate(8rem, -5rem) scale(2);}
-
-}
-
-@keyframes swim3{
-  0% {transform: translate(30rem, -5rem) rotate(-180deg);}
-  100% {transform: translate(-30rem, 1rem) rotate(-180deg);}
-}
-
-@keyframes swim4{
-  0% {transform: translate(-10rem, 20rem) rotate(-90deg);}
-  100% {transform: translate(-10rem, -20rem) rotate(-90deg);}
-}
-
-
-
-.fa-fish{
-  color: yellow;
-
-  animation: swim 3s ease-in infinite;
-  animation-fill-mode: forwards;
-}
-
-.fish2{
-  color: orange;
-
-  animation: swim2 3s ease-in infinite;
-  animation-fill-mode: both;
-}
-
-.fish3{
-  color: blue;
-
-  animation: swim3 3s ease-in infinite;
-  animation-fill-mode: forwards;
-}
-
-.fish4{
-  color: green;
-
-  animation: swim4 3s ease-in infinite;
-  animation-fill-mode: forwards;
-}
-
-/*
-.right-paw{
-  animation-name: paws;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-
-}
-
-.left-paw{
-  animation-name: paws;
-  animation-duration: 6s;
-  animation-iteration-count: infinite;
-  animation-delay: 0.2s;
-}
-
-
-@keyframes paws{
-  0% {opacity: 0;}
-  0% {transform: translate(0rem, 20rem);}
-  5% {opacity: 1;}
-  5% {transform: translate(0rem, 18rem);}
-  10% {opacity: 0;}
-  10% {transform: translate(0rem, 16rem);}
-  15% {opacity: 1;}
-  15% {transform: translate(0rem, 14rem);}
-  20% {opacity: 0;}
-  20% {transform: translate(0rem, 12rem);}
-  25% {opacity: 1;}
-  25% {transform: translate(0rem, 10rem);}
-  30% {opacity: 0;}
-  30% {transform: translate(0rem, 8rem);}
-  35% {opacity: 1;}
-  35% {transform: translate(0rem, 6rem);}
-  40% {opacity: 0;}
-  40% {transform: translate(0rem, 4rem);}
-  45% {opacity: 1;}
-  45% {transform: translate(0rem, 2rem);}
-  50% {opacity: 0;}
-  50% {transform: translate(0rem, 0rem);}
-  55% {opacity: 1;}
-  55% {transform: translate(0rem, -2rem);}
-  60% {opacity: 0;}
-  60% {transform: translate(0rem, -4rem);}
-  65% {opacity: 1;}
-  65% {transform: translate(0rem, -6rem);}
-  70% {opacity: 0;}
-  70% {transform: translate(0rem, -8rem);}
-  75% {opacity: 1;}
-  75% {transform: translate(0rem, -10rem);}
-  80% {opacity: 0;}
-  80% {transform: translate(0rem, -12rem);}
-  85% {opacity: 1;}
-  85% {transform: translate(0rem, -14rem);}
-  90% {opacity: 0;}
-  90% {transform: translate(0rem, -16rem);}
-  95% {opacity: 1;}
-  95% {transform: translate(0rem, -18rem);}
-  100% {opacity: 0;}
-  100% {transform: translate(0rem, -20rem);}
-}
-*/
-
 /* THE QUOTES LIBRARY */
 
 #quote-library-project{
@@ -764,7 +569,7 @@ filter: drop-shadow(5px 5px 15px);
 .diplomas{
   background-color: white;
   width: 80vw;
-  max-height: 210rem;
+  max-height: 230rem;
   margin: 5rem auto 1rem auto;
   display: flex;
   flex-direction: column;
@@ -809,7 +614,7 @@ filter: drop-shadow(5px 5px 15px);
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 20rem;
+  width: 25rem;
   margin: 0rem auto 2rem auto;
 }
 
@@ -839,6 +644,10 @@ filter: drop-shadow(5px 5px 15px);
   transform: scale(4.3);
 }
 
+.fa-git-alt:hover{
+  transform: scale(4.3);
+}
+
 @media only screen and (max-width: 707px){
   .stack-title{
     font-size: 3rem;
@@ -852,6 +661,9 @@ filter: drop-shadow(5px 5px 15px);
   }
 
   .fa-js{
+    transform: scale(3);
+  }
+  .fa-git-alt{
     transform: scale(3);
   }
 }
@@ -869,6 +681,9 @@ filter: drop-shadow(5px 5px 15px);
   }
 
   .fa-js{
+    transform: scale(2.5);
+  }
+  .fa-git-alt{
     transform: scale(2.5);
   }
 }
@@ -933,7 +748,7 @@ filter: drop-shadow(5px 5px 15px);
 @media only screen and (max-width: 1000px){
 .kaffe-contact{
   flex-direction: column;
-  transform: scale(2.2);
+  transform: scale(2);
   height: 12rem;
   margin: 4rem auto 1rem auto;
 }
@@ -943,7 +758,12 @@ filter: drop-shadow(5px 5px 15px);
 #chat{
   height: 38rem;
 }
+}
 
+@media only screen and (max-width: 560px){
+  .mail{
+    font-size: 0.8rem;
+  }
 }
 
 
