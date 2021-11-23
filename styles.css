@@ -375,12 +375,6 @@ filter: drop-shadow(5px 5px 15px);
   border-radius: 0rem;
 }
 
-@media only screen and (max-width: 852px){
-  .willYouLive-title{
-    font-size: 3rem;
-  }
-}
-
 @keyframes brightStar{
   0% {opacity: 30%;}
   100% {opacity: 60%; filter: drop-shadow(6px 6px 10px white);}
@@ -484,6 +478,30 @@ filter: drop-shadow(5px 5px 15px);
   animation-duration: 0.4s;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 1000px){
+  .star1{
+    transform: translate(-1rem, -6rem);
+  }
+  .star2{
+    transform: translate(-1rem, 1rem);
+  }
+  .star3{
+    transform: translate(6rem, 4rem);
+  }
+  .star4{
+    transform: translate(15rem, -8rem);
+  }
+  .star5{
+    transform: translate(-12rem, -10rem);
+  }
+}
+
+@media only screen and (max-width: 852px){
+  .willYouLive-title{
+    font-size: 3rem;
+  }
 }
 
 /* REFLAG PROJECT
