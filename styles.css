@@ -346,6 +346,10 @@ filter: drop-shadow(5px 5px 15px);
   text-align: center;
 }
 
+#willYouLive-project:hover{
+filter: drop-shadow(5px 5px 15px);
+}
+
 .willYouLive-title{
   font-size: 5rem;
   color: white;
@@ -369,6 +373,117 @@ filter: drop-shadow(5px 5px 15px);
   background-color: #EB92BE;
   filter: drop-shadow(2px 2px 7px);
   border-radius: 0rem;
+}
+
+@media only screen and (max-width: 852px){
+  .willYouLive-title{
+    font-size: 3rem;
+  }
+}
+
+@keyframes brightStar{
+  0% {opacity: 30%;}
+  100% {opacity: 60%; filter: drop-shadow(6px 6px 10px white);}
+}
+
+
+
+.star1{
+  position: absolute;
+  transform: translate(-20rem, -6rem);
+  background: white;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: brightStar;
+  animation-duration: 0.4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+.star2{
+  position: absolute;
+  transform: translate(20rem, -2rem);
+  background: white;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: brightStar;
+  animation-duration: 0.4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+.star3{
+  position: absolute;
+  transform: translate(25rem, 8rem);
+  background: white;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: brightStar;
+  animation-duration: 0.4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+.star4{
+  position: absolute;
+  transform: translate(-24rem, 8rem);
+  background: white;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: brightStar;
+  animation-duration: 0.4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+.star5{
+  position: absolute;
+  transform: translate(-15rem, 8rem);
+  background: white;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: brightStar;
+  animation-duration: 0.4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+.star6{
+  position: absolute;
+  transform: translate(-4rem, 1rem);
+  background: white;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: brightStar;
+  animation-duration: 0.4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+
+.star7{
+  position: absolute;
+  transform: translate(30rem, 1rem);
+  background: white;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  z-index: 100;
+  animation-name: brightStar;
+  animation-duration: 0.4s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 }
 
 /* REFLAG PROJECT
