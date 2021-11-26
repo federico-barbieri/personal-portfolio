@@ -836,6 +836,31 @@ filter: drop-shadow(5px 5px 15px);
   transform: scale(4.3);
 }
 
+.tools{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 25rem;
+  margin: 2rem auto 1rem auto;
+}
+
+.illustrator{
+  width: 80px;
+  height: auto;
+}
+
+.photoshop{
+  width: 80px;
+  height: auto;
+}
+
+.premiere{
+  width: 87px;
+  height: auto;
+  transform: scale(2);
+}
+
 @media only screen and (max-width: 707px){
   .stack-title{
     font-size: 3rem;
@@ -854,6 +879,24 @@ filter: drop-shadow(5px 5px 15px);
   .fa-git-alt{
     transform: scale(3);
   }
+  .tools{
+    width: 15rem;
+  }
+  .illustrator{
+    width: 60px;
+    height: auto;
+  }
+
+  .photoshop{
+    width: 60px;
+    height: auto;
+  }
+
+  .premiere{
+    width: 67px;
+    height: auto;
+    transform: scale(2);
+  }
 }
 
 @media only screen and (max-width: 530px){
@@ -861,7 +904,7 @@ filter: drop-shadow(5px 5px 15px);
     font-size: 3rem;
   }
   .stack-programmes{
-    width: 10rem;
+    width: 12rem;
   }
 
   .program{
@@ -873,6 +916,9 @@ filter: drop-shadow(5px 5px 15px);
   }
   .fa-git-alt{
     transform: scale(2.5);
+  }
+  .tools{
+    width: 12rem;
   }
 }
 
@@ -971,6 +1017,12 @@ filter: drop-shadow(5px 5px 15px);
   margin: 0rem auto 2rem auto;
 }
 
+@media (max-width: 560px){
+  .emptyForm{
+    font-size: 1.5rem;
+  }
+}
+
 .yourEmail{
   font-size: 1.5rem;
   margin: 0 auto 2rem auto;
@@ -1042,13 +1094,20 @@ filter: drop-shadow(5px 5px 15px);
   margin: 0 auto 2rem auto;
 }
 
-@media only screen and (max-width: 510px){
+@media (max-width: 620px){
   .name-footer{
     font-size: 2.5rem;
   }
   .footer-icons{
-    width: 10rem;
+    width: 8rem;
   }
+}
+
+@media only screen and (max-width: 510px){
+  .name-footer{
+    font-size: 2.5rem;
+  }
+
 }
 
 @media only screen and (max-width: 400px){
