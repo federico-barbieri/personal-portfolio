@@ -26,6 +26,7 @@ button {
 width: 100%;
 background-color: #FFE6E6;
 overflow: hidden;
+margin: 0 auto 0 auto;
 }
 
 /* NAV */
