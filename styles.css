@@ -758,7 +758,7 @@ filter: drop-shadow(5px 5px 15px);
 
 .diplomas{
   background-color: white;
-  width: 80vw;
+  max-width: 80vw;
   max-height: 230rem;
   margin: 5rem auto 1rem auto;
   display: flex;
