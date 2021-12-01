@@ -22,13 +22,6 @@ button {
   cursor: pointer;
 }
 
-.container{
-max-width: 100%;
-background-color: #FFE6E6;
-overflow: hidden;
-margin: 0 auto 0 auto;
-}
-
 /* NAV */
 
 nav{
@@ -124,8 +117,6 @@ nav li{
 body{
   font-family: 'Poiret One', cursive;
   text-align: center;
-  max-width: 90%;
-  background: blue;
 }
 
 /* INTRO */
@@ -1058,4 +1049,11 @@ filter: drop-shadow(5px 5px 15px);
   .footer-icons{
     width: 5rem;
   }
+}
+
+.container{
+max-width: 100%;
+background-color: #FFE6E6;
+overflow: hidden;
+margin: 0 auto 0 auto;
 }
