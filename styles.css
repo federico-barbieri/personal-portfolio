@@ -110,7 +110,7 @@ nav li{
 }
 .fa-window-close{
   position: absolute;
-  transform: scale(3) translate(13rem, 0.7rem);
+  transform: scale(3) translate(10rem, 0.7rem);
   cursor: pointer;
 }
 
